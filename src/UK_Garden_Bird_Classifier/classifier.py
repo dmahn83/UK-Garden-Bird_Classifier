@@ -7,10 +7,10 @@ from PIL import Image, ImageOps
 from UK_Garden_Bird_Classifier import bird_classes
 
 # Define the paths to the model and weights files
-current_directory = os.getcwd()
-models_directory = os.path.join(current_directory, 'src/model')
-model_path = os.path.join(models_directory, 'ft_ResNet50V2_20_UK_Garden_Birds.keras')
-weights_path = os.path.join(models_directory, 'ft_ResNet50V2_20_UK_Garden_Birds_weights.h5')
+root_directory = os.path.dirname(os.path.abspath(__file__))
+models_directory = os.path.join(root_directory, '/model')
+model_path: str = os.path.join(models_directory, 'ft_ResNet50V2_20_UK_Garden_Birds.keras')
+weights_path: str = os.path.join(models_directory, 'ft_ResNet50V2_20_UK_Garden_Birds_weights.h5')
 
 # Load the model architecture
 model = tf.keras.models.load_model(model_path)
