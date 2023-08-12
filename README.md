@@ -28,9 +28,7 @@ Song_Thrush<br/>
 
 ### Installation <br />
 ```sh
-!git clone https://github.com/dmahn83/20-UK-Garden-Birds
-%cd 20-UK-Garden-Birds
-%pip install .
+!pip install git+https://github.com/dmahn83/20-UK-Garden-Birds.git
 ```
 
 ### Usage <br />
