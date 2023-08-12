@@ -7,7 +7,8 @@ from PIL import Image, ImageOps
 from UK_Garden_Bird_Classifier import bird_classes
 
 # Define the paths to the model and weights files
-models_directory = os.path.join(os.path.dirname(__file__), 'model')
+current_directory = os.getcwd()
+models_directory = os.path.join(current_directory, 'model')
 model_path = os.path.join(models_directory, 'ft_ResNet50V2_20_UK_Garden_Birds.keras')
 weights_path = os.path.join(models_directory, 'ft_ResNet50V2_20_UK_Garden_Birds_weights.h5')
 

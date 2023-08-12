@@ -13,7 +13,9 @@ test_class_names = bird_classes.class_names
 test_cases = []
 for class_name in test_class_names:
     random_int = random.randint(1, 5)  # Generate a random integer between 1 and 5 (inclusive) for the file names
-    image_path = os.path.join('test_images', f'{class_name} ({random_int}).jpg')
+    current_directory = os.getcwd()
+    image_path = os.path.join('/test_images', f'{class_name} ({random_int}).jpg')
+    full_image_path = os.path.join(current_directory, image_path)
     test_case = {'image_path': image_path, 'expected_class': class_name}
     test_cases.append(test_case)
 
