@@ -14,7 +14,7 @@ test_cases = []
 for class_name in test_class_names:
     random_int = random.randint(1, 5)  # Generate a random integer between 1 and 5 (inclusive) for the file names
     root_directory = os.path.dirname(os.path.abspath(__file__))
-    image_path = os.path.join('test_images', f'{class_name} ({random_int}).jpg')
+    image_path = os.path.join('/test_images', f'{class_name} ({random_int}).jpg')
     full_image_path = os.path.join(root_directory, image_path)
     test_case = {'image_path': full_image_path, 'expected_class': class_name}
     test_cases.append(test_case)

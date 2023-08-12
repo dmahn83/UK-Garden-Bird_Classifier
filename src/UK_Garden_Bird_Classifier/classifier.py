@@ -8,7 +8,7 @@ from UK_Garden_Bird_Classifier import bird_classes
 
 # Define the paths to the model and weights files
 root_directory = os.path.dirname(os.path.abspath(__file__))
-models_directory = os.path.join(root_directory, 'model')
+models_directory = os.path.join(root_directory, '/model')
 model_path: str = os.path.join(models_directory, 'ft_ResNet50V2_20_UK_Garden_Birds.keras')
 weights_path: str = os.path.join(models_directory, 'ft_ResNet50V2_20_UK_Garden_Birds_weights.h5')
 
