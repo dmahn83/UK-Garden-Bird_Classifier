@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0",
+    'tensorflow',
+    'pillow',
+    'matplotlib'
+]
+build-backend = "setuptools.build_meta"
+[project]
+name = "UK_Garden_Bird_Classifier"
+version = "0.2.0"
+authors = [
+  { name="David Mahony", email="dmahn83@gmail.com" },
+]
+description = "A package for UK garden bird image classification"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/dmahn83/20-UK-Garden-Birds"
+"Bug Tracker" = "https://github.com/dmahn83/20-UK-Garden-Birds/issues"

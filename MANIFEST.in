@@ -1,0 +1,3 @@
+include src/UK_Garden_Bird_Classifier/model/*.keras
+include src/UK_Garden_Bird_Classifier/model/*.h5
+include src/UK_Garden_Bird_Classifier/test_images/*.jpg
