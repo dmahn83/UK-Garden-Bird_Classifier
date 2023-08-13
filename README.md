@@ -5,7 +5,7 @@
 The UK_Garden_Bird_Classifier module is installed directly from this repo.
 
 ```python
-!pip install git+https://github.com/dmahn83/UK-Garden-Bird_Classifier.git
+!pip install git+https://github.com/dmahn83/UK-Garden-Bird-Classifier.git
 ```
 
 ### USAGE <hr>
