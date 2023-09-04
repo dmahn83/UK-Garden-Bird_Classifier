@@ -42,3 +42,11 @@ The ResNet50 V2 model used by this program has been trained to classify images c
     "Carrion_Crow", "Coal_Tit", "Greenfinch", "Wren", "Song_Thrush"
 ]
 
+### RESOURCES<hr>
+
+We provide links to Kaggle notebooks and additional resources detailing the curation of the 20 UK Garden Bird dataset.  We also proveide links to experiments and their results detailing the development of the augmented ResNet50V2 model used in this package:
+
+- 20 UK Garden Birds Dataset
+  - Imge procurement methodology - root/resources/Data_Collection_using_Bing_image_downloader.ipynb
+  - [Image processing methodology](.https://www.kaggle.com/code/davemahony/1-20-uk-garden-bird-ds-prep-with-mask-rcnn)  
+  - [Dataset analysis](.https://www.kaggle.com/code/davemahony/1-20-uk-garden-bird-ds-prep-with-mask-rcnn) 
