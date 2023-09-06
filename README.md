@@ -44,9 +44,18 @@ The ResNet50 V2 model used by this program has been trained to classify images c
 
 ### RESOURCES<hr>
 
-We provide links to Kaggle notebooks and additional resources detailing the curation of the 20 UK Garden Bird dataset.  We also proveide links to experiments and their results detailing the development of the augmented ResNet50V2 model used in this package:
+We provide links to Kaggle notebooks and additional resources detailing the curation of the 20 UK Garden Bird dataset.  We also provide links to experiments and their results detailing the development of the augmented ResNet50V2 model used in this package:
 
-- 20 UK Garden Birds Dataset
+- 20 UK Garden Birds Dataset Curation
   - Image procurement methodology - root/resources/Data_Collection_using_Bing_image_downloader.ipynb
   - Image processing methodology - https://www.kaggle.com/code/davemahony/1-20-uk-garden-bird-ds-prep-with-mask-rcnn  
   - Dataset analysis - .https://www.kaggle.com/code/davemahony/1-20-uk-garden-bird-ds-prep-with-mask-rcnn 
+
+- 20 UK Garden Birds Experiments (Model Development)
+  - Experiment 1 - We apply transfer learning to a ResNet50V2 model pretrained on the ImageNet dataset, using this as  the basis for transfer learning https://www.kaggle.com/code/davemahony/3-cnn-resnet-birds-525-species
+  - Experiment 2 - We train a base model using the ResNet50V2 architecture to assess performance improvements. https://www.kaggle.com/code/davemahony/1-20-uk-garden-bird-ds-prep-with-mask-rcnn  
+  - Experiment 3 - We apply transfer learning techniques to the initial model. https://www.kaggle.com/code/davemahony/5-20-uk-garden-birds-pretrained-resnet50v2 
+  - Experiment 4 - We apply both transfer learning and image augmentation techniques to the initial model. https://www.kaggle.com/code/davemahony/6-20-uk-garden-birds-aug-pretrained-resnet5 
+  - Experiment 5 - We apply both transfer learning and background removal techniques to the initial model. https://www.kaggle.com/code/davemahony/7-20-uk-garden-birds-nobg-pretrained-resnet5
+  - Experiment Metrics per model - root/resources/20 UK Garden Bird Experiments/Model Metrics.xlsx
+  - Experiment Predictions per model -root/resources/20 UK Garden Bird Experiments/Model Prediction .xlsx
